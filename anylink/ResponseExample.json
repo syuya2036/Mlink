@@ -1,0 +1,194 @@
+{
+    "entityUniqueId": "YOUTUBE_VIDEO::37W7Y2RRyiM",
+    "userCountry": "JP",
+    "pageUrl": "https://song.link/y/37W7Y2RRyiM",
+    "entitiesByUniqueId": {
+        "AMAZON_SONG::B07QWVM6V6": {
+            "id": "B07QWVM6V6",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "Official髭男dism",
+            "thumbnailUrl": "https://m.media-amazon.com/images/I/51d4KQdr0UL._AA500.jpg",
+            "thumbnailWidth": 500,
+            "thumbnailHeight": 500,
+            "apiProvider": "amazon",
+            "platforms": [
+                "amazonMusic",
+                "amazonStore"
+            ]
+        },
+        "ANGHAMI_SONG::99288713": {
+            "id": "99288713",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "OFFICIAL HIGE DANDISM",
+            "thumbnailUrl": "https://artwork.anghcdn.co/cover/137028274/320",
+            "thumbnailWidth": 1024,
+            "thumbnailHeight": 1024,
+            "apiProvider": "anghami",
+            "platforms": [
+                "anghami"
+            ]
+        },
+        "BOOMPLAY_SONG::53755193": {
+            "id": "53755193",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "OFFICIAL HIGE DANDISM",
+            "thumbnailUrl": "https://source.boomplaymusic.com/group10/M00/02/06/7f4eed7855d3496f84111578f7e3a883_464_464.jpg",
+            "thumbnailWidth": 464,
+            "thumbnailHeight": 464,
+            "apiProvider": "boomplay",
+            "platforms": [
+                "boomplay"
+            ]
+        },
+        "DEEZER_SONG::1073671352": {
+            "id": "1073671352",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "Official HIGE DANdism",
+            "thumbnailUrl": "https://cdns-images.dzcdn.net/images/cover/52d5bff6a087a39f42c0d4b130e05ff0/500x500-000000-80-0-0.jpg",
+            "thumbnailWidth": 500,
+            "thumbnailHeight": 500,
+            "apiProvider": "deezer",
+            "platforms": [
+                "deezer"
+            ]
+        },
+        "ITUNES_SONG::1459216694": {
+            "id": "1459216694",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "Official髭男dism",
+            "thumbnailUrl": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/1f/b6/36/1fb6364f-77fc-7653-3750-811631832ee9/PCCA_04785.jpg/512x512bb.jpg",
+            "thumbnailWidth": 512,
+            "thumbnailHeight": 512,
+            "apiProvider": "itunes",
+            "platforms": [
+                "appleMusic",
+                "itunes"
+            ]
+        },
+        "NAPSTER_SONG::tra.495970869": {
+            "id": "tra.495970869",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "Official髭男dism",
+            "thumbnailUrl": "https://direct.rhapsody.com/imageserver/images/alb.495970868/385x385.jpeg",
+            "thumbnailWidth": 385,
+            "thumbnailHeight": 385,
+            "apiProvider": "napster",
+            "platforms": [
+                "napster"
+            ]
+        },
+        "PANDORA_SONG::TR:22276871": {
+            "id": "TR:22276871",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "Official HIGE DANdism",
+            "thumbnailUrl": "https://content-images.p-cdn.com/images/ad/cb/1f/6b/531b4668b005e82fd3c64fda/_500W_500H.jpg",
+            "thumbnailWidth": 500,
+            "thumbnailHeight": 500,
+            "apiProvider": "pandora",
+            "platforms": [
+                "pandora"
+            ]
+        },
+        "SPOTIFY_SONG::58dxGXavrcagRqA58fNB0Z": {
+            "id": "58dxGXavrcagRqA58fNB0Z",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "OFFICIAL HIGE DANDISM",
+            "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000b27376f402d83c2a85e5deca60e7",
+            "thumbnailWidth": 640,
+            "thumbnailHeight": 640,
+            "apiProvider": "spotify",
+            "platforms": [
+                "spotify"
+            ]
+        },
+        "YOUTUBE_VIDEO::37W7Y2RRyiM": {
+            "id": "37W7Y2RRyiM",
+            "type": "song",
+            "title": "Pretender",
+            "artistName": "OFFICIAL HIGE DANDISM - Topic",
+            "thumbnailUrl": "https://i.ytimg.com/vi/37W7Y2RRyiM/hqdefault.jpg",
+            "thumbnailWidth": 480,
+            "thumbnailHeight": 360,
+            "apiProvider": "youtube",
+            "platforms": [
+                "youtube",
+                "youtubeMusic"
+            ]
+        }
+    },
+    "linksByPlatform": {
+        "amazonMusic": {
+            "country": "JP",
+            "url": "https://music.amazon.com/albums/B07QWVMMX2?trackAsin=B07QWVM6V6",
+            "entityUniqueId": "AMAZON_SONG::B07QWVM6V6"
+        },
+        "amazonStore": {
+            "country": "US",
+            "url": "https://amazon.com/dp/_/B07QWVM6V6",
+            "entityUniqueId": "AMAZON_SONG::B07QWVM6V6"
+        },
+        "anghami": {
+            "country": "JP",
+            "url": "https://play.anghami.com/song/99288713?refer=linktree",
+            "entityUniqueId": "ANGHAMI_SONG::99288713"
+        },
+        "boomplay": {
+            "country": "JP",
+            "url": "https://www.boomplay.com/songs/53755193",
+            "entityUniqueId": "BOOMPLAY_SONG::53755193"
+        },
+        "deezer": {
+            "country": "JP",
+            "url": "https://www.deezer.com/track/1073671352",
+            "entityUniqueId": "DEEZER_SONG::1073671352"
+        },
+        "appleMusic": {
+            "country": "JP",
+            "url": "https://geo.music.apple.com/jp/album/_/1459216693?i=1459216694&mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+            "nativeAppUriMobile": "music://itunes.apple.com/jp/album/_/1459216693?i=1459216694&mt=1&app=music&ls=1&at=1000lHKX&ct=api_uri_m&itscg=30200&itsct=odsl_m",
+            "nativeAppUriDesktop": "itmss://itunes.apple.com/jp/album/_/1459216693?i=1459216694&mt=1&app=music&ls=1&at=1000lHKX&ct=api_uri_d&itscg=30200&itsct=odsl_m",
+            "entityUniqueId": "ITUNES_SONG::1459216694"
+        },
+        "itunes": {
+            "country": "JP",
+            "url": "https://geo.music.apple.com/jp/album/_/1459216693?i=1459216694&mt=1&app=itunes&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+            "nativeAppUriMobile": "itmss://itunes.apple.com/jp/album/_/1459216693?i=1459216694&mt=1&app=itunes&ls=1&at=1000lHKX&ct=api_uri_m&itscg=30200&itsct=odsl_m",
+            "nativeAppUriDesktop": "itmss://itunes.apple.com/jp/album/_/1459216693?i=1459216694&mt=1&app=itunes&ls=1&at=1000lHKX&ct=api_uri_d&itscg=30200&itsct=odsl_m",
+            "entityUniqueId": "ITUNES_SONG::1459216694"
+        },
+        "napster": {
+            "country": "JP",
+            "url": "https://play.napster.com/track/tra.495970869",
+            "entityUniqueId": "NAPSTER_SONG::tra.495970869"
+        },
+        "pandora": {
+            "country": "US",
+            "url": "https://www.pandora.com/TR:22276871",
+            "entityUniqueId": "PANDORA_SONG::TR:22276871"
+        },
+        "spotify": {
+            "country": "JP",
+            "url": "https://open.spotify.com/track/58dxGXavrcagRqA58fNB0Z",
+            "nativeAppUriDesktop": "spotify:track:58dxGXavrcagRqA58fNB0Z",
+            "entityUniqueId": "SPOTIFY_SONG::58dxGXavrcagRqA58fNB0Z"
+        },
+        "youtube": {
+            "country": "JP",
+            "url": "https://www.youtube.com/watch?v=37W7Y2RRyiM",
+            "entityUniqueId": "YOUTUBE_VIDEO::37W7Y2RRyiM"
+        },
+        "youtubeMusic": {
+            "country": "JP",
+            "url": "https://music.youtube.com/watch?v=37W7Y2RRyiM",
+            "entityUniqueId": "YOUTUBE_VIDEO::37W7Y2RRyiM"
+        }
+    }
+}
