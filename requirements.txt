@@ -1,4 +1,0 @@
-flask
-sqlite3
-beautifulsoup4
-line-bot-sdk
