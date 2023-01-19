@@ -41,11 +41,15 @@ func newMinfo(url string) *Minfo {
 
 // jsonを解析して各種情報を取得
 func (self *Minfo) readMap(songUrlMap map[string]interface {}) {
-
+	linksByPlatforms := songUrlMap["linksByPlatform"].(map[string]interface {})
+	infoByAmazon := songUrlMap["entitiesByUniqueId"].(map[string]interface {})["AMAZON_SONG::B07QWVM6V6"].(map[string]interface {})
 	// linksByPlatform -> amazonMusic -> url
-	amazon := fmt.Sprintf("%v",songUrlMap["linksByPlatform"].(map[string]interface {})["amazonMusic"].(map[string]interface {})["url"])
-
-	self.Amazon = amazon
+	self.Amazon = fmt.Sprintf("%v",linksByPlatforms["amazonMusic"].(map[string]interface {})["url"])
+	self.Apple = fmt.Sprintf("%v",linksByPlatforms["appleMusic"].(map[string]interface {})["url"])
+	self.Youtube = fmt.Sprintf("%v",linksByPlatforms["youtubeMusic"].(map[string]interface {})["url"])
+	self.Spotify = fmt.Sprintf("%v",linksByPlatforms["spotify"].(map[string]interface {})["url"])
+	self.Title = fmt.Sprintf("%v",infoByAmazon["title"])
+	self.ArtistName = fmt.Sprintf("%v",infoByAmazon["artistName"])
 }
 
 func (self *Minfo) GetMusicUrls() error {
