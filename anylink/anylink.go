@@ -1,4 +1,4 @@
-package main
+package anylink
 import (
     "fmt"
     "net/http"
@@ -6,17 +6,17 @@ import (
 	"io"
 )
 
-func main(){
-	url := "https://api.song.link/v1-alpha.1/links?url=https://music.youtube.com/watch?v=37W7Y2RRyiM&feature=share&userCountry=JP"
-	musicInfo := newMinfo(url)
-	err := musicInfo.GetMusicUrls()
+// func main(){
+// 	url := "https://api.song.link/v1-alpha.1/links?url=https://music.youtube.com/watch?v=37W7Y2RRyiM&feature=share&userCountry=JP"
+// 	musicInfo := newMinfo(url)
+// 	err := musicInfo.GetMusicUrls()
 
-	if err != nil {
-		fmt.Println("ajfjkld")
-	}
+// 	if err != nil {
+// 		fmt.Println("ajfjkld")
+// 	}
 
-	fmt.Println(musicInfo.Amazon)
-}
+// 	fmt.Println(musicInfo.Amazon)
+// }
 
 // 音楽サイトの各リンクとタイトル・アーティスト
 type Minfo struct {

@@ -5,9 +5,8 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"Mlink/src/anylink"
-
-	"github.com/line/line-bot-sdk-go/v7"
+	"github.com/syuya2036/Mlink/anylink"
+	"github.com/line/line-bot-sdk-go/v7/linebot"
 )
 
 func main() {
