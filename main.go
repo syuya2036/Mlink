@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"os"
 	"log"
 	"net/http"
 	"io"
@@ -12,8 +13,8 @@ import (
 )
 
 func main() {
-	const ChannelSecret = ""
-	const AccessToken = ""
+	const ChannelSecret = os.Getenv("CHANNEL_SECRET")
+	const AccessToken = os.Getenv("ACCESS_TOKEN")
 	bot, err := linebot.New(
 		ChannelSecret, // Channel Secret 
 		AccessToken, // アクセストークン（ロングターム）
@@ -158,5 +159,5 @@ func create_message(requested_message string) string {
 		return replyText
 	} else {
 		replyText := "リンクを送ってね！"
-		return 
+		return replyText
 }
