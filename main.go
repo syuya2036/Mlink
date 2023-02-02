@@ -12,8 +12,8 @@ import (
 )
 
 func main() {
-	const ChannelSecret = "e8955790558134481225f16a34291401"
-	const AccessToken = "e/ilqffzd3mP20M5NrWcaIQK54xIYkybduJfzGB2Fd9ZML/ODeELFmfXlQgr9TnGb4JikPgYDXOXDWDgXn6LWO2OcO3z/dfVXWJ5U+BjwFyCvf7Lcjz0WoUn3kFAAhmhPtEhxizBjeHGTKGofvfFVQdB04t89/1O/w1cDnyilFU="
+	const ChannelSecret = ""
+	const AccessToken = ""
 	bot, err := linebot.New(
 		ChannelSecret, // Channel Secret 
 		AccessToken, // アクセストークン（ロングターム）
