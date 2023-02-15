@@ -10,11 +10,20 @@ import (
 	"regexp"
 	"encoding/json"
 	"github.com/line/line-bot-sdk-go/linebot"
+	"github.com/joho/godotenv"
 )
 
 func main() {
-	const ChannelSecret = os.Getenv("CHANNEL_SECRET")
-	const AccessToken = os.Getenv("ACCESS_TOKEN")
+
+	err := godotenv.Load(".env")
+	
+	// もし err がnilではないなら、"読み込み出来ませんでした"が出力されます。
+	if err != nil {
+		fmt.Printf("読み込み出来ませんでした: %v", err)
+	} 
+
+	ChannelSecret := os.Getenv("CHANNEL_SECRET")
+	AccessToken := os.Getenv("ACCESS_TOKEN")
 	bot, err := linebot.New(
 		ChannelSecret, // Channel Secret 
 		AccessToken, // アクセストークン（ロングターム）
@@ -159,4 +168,5 @@ func create_message(requested_message string) string {
 	} else {
 		replyText := "リンクを送ってね！"
 		return replyText
+	}
 }
